@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+  <h1>Bit-Gypsy</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+
+      <label for="market_dt">Start Date</label>
+      <input type="date" name="market_dt" placeholder="Choose date e.g yyyy-mm-dd" required="required" />
+      <label for="market_dt2">End Date</label>
+      <input type="date" name="market_dt2" placeholder="Choose date e.g yyyy-mm-dd" required="required" />
+
+
+        <button type="submit" id='btn' class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>  
+
+
+    <br>
+      {{ prediction_text }}
+   <br>
+      {{ prediction_text2 }}
+   <br>
+      {{ prediction_text3 }}
+   <br>
+   <h5> </h5>
+
+ </div>
+
+
+</body>
+</html>
