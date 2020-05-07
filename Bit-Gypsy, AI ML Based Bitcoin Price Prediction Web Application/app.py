@@ -40,7 +40,8 @@ def predict():
 
         #Client = bi.client.Client
 
-        client = Client('5oJKxLS9xif8zp5bbsjRr67s5h4oWvmCh3D6ZOlbdFNwYDvDkLNXPLfyVjJ53vUT','kxpoCJI9la6MQTOJlJzgNLPy4X4XdRlNkX8QmZJCjPnPDf9vgu3ib46x1veWv9fU')
+        # Please create you Binance account from their website and replace the API details with xxx and yyy below
+        client = Client('xxx','yyy')
 
 
 
