@@ -1,5 +1,5 @@
 # Artificial-Intelligence-and-Machine-Learning-Solutions
-This repository contains various personal Artificial Intelligence and Machine Learning projects by Obie Udemezue covering 
+This repository contains various personal Artificial Intelligence and Machine Learning projects by Obie Udemezue 
 
 ### Bit-Gypsy, AI ML Based Bitcoin Price Prediction Web Application (link to application: https://bytgypsy-app.herokuapp.com/)
 This Web application exploits time-series forecasting methods to predict the price of Bitcoin, using machine learning. Organizations, markets and industries are daily in need of the ability to accurately predict the performance of their value drivers, and time-series forecasting leveraging on machine learning algorithms have made this possible.
