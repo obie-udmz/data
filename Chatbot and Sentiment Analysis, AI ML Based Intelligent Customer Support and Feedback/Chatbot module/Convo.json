@@ -1,0 +1,44 @@
+{"convos":[
+			{"subject": "call",
+			 "users": ["anny", "anny?"],
+			 "bots": ["yes","yeah"],
+			 "context_set": ""
+			},
+			{"subject": "faqtime",
+			 "users": ["what time does your store open?","what time does your store close?",
+			 		  "when does your store open?","when does your store close?",
+			 		  "is the store open?", "is the store closed?", "what's your closing time?",
+			 		  "what is your closing time?"
+			 		  ],
+			 "bots": ["We are open Mondays to Fridays, 8:00 am to 10:00",
+			 		 "Please use this link to confirm our updated hours of operations"],
+			 "context_set": ""
+			},
+			{"subject": "pleasant",
+			 "users": ["how are you?", "how are you today", "are you okay?",
+			 		   "are you alright"
+			 		 ],
+			 "bots": ["I'm great, thank you. How can I help you today?", "I'm okay",
+			 		  "I'm great!", "I'm okay, thank you. How can I help you today?"
+			 		 ],
+			 "context_set": ""
+			},
+			{"subject": "greet2",
+			 "users": ["hi anny", "hello anny", "good day, anny", "good morning, anny",
+			 	"good evening anny","Hey anny", "Hey there anny", "hiya! anny"
+			 		 ],
+			 "bots": ["Hi! How can I help?", "Hello! How can I assist you today?",
+			 	      "Hey there! I'm here to help"],
+			 "context_set": ""
+			},
+			{"subject": "greet1",
+			 "users": ["hi", "hello", "good day", "good morning",
+			 	"good evening","Hey", "Hey there", "hiya!"
+			 		 ],
+			 "bots": ["Hi, I'm Anny and I'm here to help", "Hello, I'm Anny and I'm here to help",
+			 	      "Hey there, I'm Anny and I'm here to help"],
+			 "context_set": ""
+			}
+
+	]
+}
