@@ -8,7 +8,7 @@ click==7.1.1
 cmdstanpy==0.4.0
 constantly==15.1.0
 convertdate==2.2.0
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.16
 dateparser==0.7.4
